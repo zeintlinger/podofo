@@ -32,3 +32,5 @@ rtf/
 man/
 xml/
 htmlhelp/
+/.vs
+/out
