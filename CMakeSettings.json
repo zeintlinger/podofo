@@ -1,0 +1,130 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x86-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x86" ],
+      "variables": [
+        {
+          "name": "ZLIB_INCLUDE_DIR",
+          "value": "${projectDir}\\..\\zlib\\out\\install\\${name}\\include",
+          "type": "PATH"
+        },
+        {
+          "name": "ZLIB_LIBRARY",
+          "value": "${projectDir}\\..\\zlib\\out\\install\\${name}\\lib\\zlibd.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "JPEG_INCLUDE_DIR",
+          "value": "${projectDir}\\..\\jpeg-9e",
+          "type": "PATH"
+        },
+        {
+          "name": "JPEG_LIBRARY",
+          "value": "${projectDir}\\..\\jpeg-9e\\libjpeg.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "FREETYPE_INCLUDE_DIRS",
+          "value": "${projectDir}\\..\\freetype\\out\\install\\${name}\\include\\freetype2",
+          "type": "PATH"
+        },
+        {
+          "name": "FREETYPE_LIBRARY",
+          "value": "${projectDir}\\..\\freetype\\out\\install\\${name}\\lib\\freetyped.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "LIBXML2_INCLUDE_DIR",
+          "value": "${projectDir}\\..\\libxml2\\out\\install\\${name}\\include\\libxml2",
+          "type": "PATH"
+        },
+        {
+          "name": "LIBXML2_LIBRARY",
+          "value": "${projectDir}\\..\\libxml2\\out\\install\\${name}\\lib\\libxml2d.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "PNG_PNG_INCLUDE_DIR",
+          "value": "${projectDir}\\..\\libpng",
+          "type": "PATH"
+        },
+        {
+          "name": "PNG_LIBRARY",
+          "value": "${projectDir}\\..\\libpng\\projects\\vstudio\\Debug\\libpng16.lib",
+          "type": "FILEPATH"
+        }
+      ]
+    },
+    {
+      "name": "x86-Release",
+      "generator": "Ninja",
+      "configurationType": "RelWithDebInfo",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x86" ],
+      "variables": [
+        {
+          "name": "ZLIB_INCLUDE_DIR",
+          "value": "${projectDir}\\..\\zlib\\out\\install\\${name}\\include",
+          "type": "PATH"
+        },
+        {
+          "name": "ZLIB_LIBRARY",
+          "value": "${projectDir}\\..\\zlib\\out\\install\\${name}\\lib\\zlib.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "JPEG_INCLUDE_DIR",
+          "value": "${projectDir}\\..\\jpeg-9e",
+          "type": "PATH"
+        },
+        {
+          "name": "JPEG_LIBRARY",
+          "value": "${projectDir}\\..\\jpeg-9e\\libjpeg.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "FREETYPE_INCLUDE_DIRS",
+          "value": "${projectDir}\\..\\freetype\\out\\install\\${name}\\include\\freetype2",
+          "type": "PATH"
+        },
+        {
+          "name": "FREETYPE_LIBRARY",
+          "value": "${projectDir}\\..\\freetype\\out\\install\\${name}\\lib\\freetype.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "LIBXML2_INCLUDE_DIR",
+          "value": "${projectDir}\\..\\libxml2\\out\\install\\${name}\\include\\libxml2",
+          "type": "PATH"
+        },
+        {
+          "name": "LIBXML2_LIBRARY",
+          "value": "${projectDir}\\..\\libxml2\\out\\install\\${name}\\lib\\libxml2.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "PNG_PNG_INCLUDE_DIR",
+          "value": "${projectDir}\\..\\libpng",
+          "type": "PATH"
+        },
+        {
+          "name": "PNG_LIBRARY",
+          "value": "${projectDir}\\..\\libpng\\projects\\vstudio\\Release\\libpng16.lib",
+          "type": "FILEPATH"
+        }
+      ]
+    }
+  ]
+}

@@ -189,6 +189,13 @@ else()
     message("Libtiff not found. TIFF support will be disabled")
 endif()
 
+
+
+
+message(STATUS "Project Directory: ${projectDir}")
+message(STATUS "PNG_INCLUDE_DIR: ${PNG_INCLUDE_DIR}")
+message(STATUS "PNG_LIBRARY: ${PNG_LIBRARY}")
+
 find_package(PNG)
 
 if(PNG_FOUND)
@@ -198,6 +205,7 @@ else()
     message("LibPng not found. PNG support will be disabled")
     set(PNG_LIBRARIES "")
 endif()
+
 
 find_package(Freetype REQUIRED)
 message("Found freetype library at ${FREETYPE_LIBRARIES}, headers ${FREETYPE_INCLUDE_DIRS}")
