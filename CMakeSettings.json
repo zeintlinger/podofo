@@ -60,6 +60,26 @@
           "name": "PNG_LIBRARY",
           "value": "${projectDir}\\..\\libpng\\projects\\vstudio\\Debug\\libpng16.lib",
           "type": "FILEPATH"
+        },
+        {
+          "name": "OPENSSL_ROOT_DIR",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_1",
+          "type": "PATH"
+        },
+        {
+          "name": "OPENSSL_INCLUDE_DIR",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\include",
+          "type": "PATH"
+        },
+        {
+          "name": "OPENSSL_CRYPTO_LIBRARY",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\lib\\libcrypto.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "OPENSSL_SSL_LIBRARY",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\lib\\libssl.lib",
+          "type": "FILEPATH"
         }
       ]
     },
@@ -122,6 +142,26 @@
         {
           "name": "PNG_LIBRARY",
           "value": "${projectDir}\\..\\libpng\\projects\\vstudio\\Release\\libpng16.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "OPENSSL_ROOT_DIR",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_1",
+          "type": "PATH"
+        },
+        {
+          "name": "OPENSSL_INCLUDE_DIR",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\include",
+          "type": "PATH"
+        },
+        {
+          "name": "OPENSSL_CRYPTO_LIBRARY",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\lib\\libcrypto.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "OPENSSL_SSL_LIBRARY",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\lib\\libssl.lib",
           "type": "FILEPATH"
         }
       ]
