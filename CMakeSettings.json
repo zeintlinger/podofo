@@ -63,22 +63,22 @@
         },
         {
           "name": "OPENSSL_ROOT_DIR",
-          "value": "${projectDir}\\..\\openssl_vc17_v3_1",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_5",
           "type": "PATH"
         },
         {
           "name": "OPENSSL_INCLUDE_DIR",
-          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\include",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_5\\include",
           "type": "PATH"
         },
         {
           "name": "OPENSSL_CRYPTO_LIBRARY",
-          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\lib\\libcrypto.lib",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_5\\lib\\libcrypto.lib",
           "type": "FILEPATH"
         },
         {
           "name": "OPENSSL_SSL_LIBRARY",
-          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\lib\\libssl.lib",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_5\\lib\\libssl.lib",
           "type": "FILEPATH"
         }
       ]
@@ -146,22 +146,22 @@
         },
         {
           "name": "OPENSSL_ROOT_DIR",
-          "value": "${projectDir}\\..\\openssl_vc17_v3_1",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_5",
           "type": "PATH"
         },
         {
           "name": "OPENSSL_INCLUDE_DIR",
-          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\include",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_5\\include",
           "type": "PATH"
         },
         {
           "name": "OPENSSL_CRYPTO_LIBRARY",
-          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\lib\\libcrypto.lib",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_5\\lib\\libcrypto.lib",
           "type": "FILEPATH"
         },
         {
           "name": "OPENSSL_SSL_LIBRARY",
-          "value": "${projectDir}\\..\\openssl_vc17_v3_1\\lib\\libssl.lib",
+          "value": "${projectDir}\\..\\openssl_vc17_v3_5\\lib\\libssl.lib",
           "type": "FILEPATH"
         }
       ]
