@@ -72,7 +72,7 @@ if(PODOFO_BUILD_STATIC)
         VERSION "${PODOFO_VERSION}"
         SOVERSION "${PODOFO_SOVERSION}"
         CLEAN_DIRECT_OUTPUT 1
-        OUTPUT_NAME "podofo"
+        OUTPUT_NAME "podofo-${PODOFO_VERSION_MAJOR}${PODOFO_VERSION_MINOR}${PODOFO_VERSION_PATCH}"
     )
     set(PODOFO_TARGET podofo_static)
     set(PODOFO_LIBRARIES podofo_static podofo_private podofo_3rdparty
@@ -92,7 +92,7 @@ if(PODOFO_BUILD_SHARED)
         VERSION "${PODOFO_VERSION}"
         SOVERSION "${PODOFO_SOVERSION}"
         CLEAN_DIRECT_OUTPUT 1
-        OUTPUT_NAME "podofo"
+        OUTPUT_NAME "podofo-${PODOFO_VERSION_MAJOR}${PODOFO_VERSION_MINOR}${PODOFO_VERSION_PATCH}"
     )
     set(PODOFO_TARGET podofo_shared)
     set(PODOFO_LIBRARIES podofo_shared
